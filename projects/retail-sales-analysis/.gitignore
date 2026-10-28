@@ -1,0 +1,13 @@
+# Credentials / local environment
+.env
+.env.*
+.DS_Store
+
+# Raw dataset files; download from the cited public dataset
+# (raw customer data need not be part of this portfolio)
+data/raw/
+data/processed/Customers_utf8.csv
+
+# Local database / Tableau working files
+*.hyper
+*.log
